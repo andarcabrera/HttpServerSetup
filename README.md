@@ -3,14 +3,13 @@
 This is a helper for [Java HTTP Server](https://github.com/andarcabrera/HTTPServer) setup.
 
 It clones 3 projects:
-- [Java HTTP Server](https://github.com/andarcabrera/HTTPServer)
-- [TTT Gem](https://github.com/andarcabrera/tttj_gem)
-- [cob_spec](https://github.com/8thlight/cob_spec)
-
+- [Java HTTP Server](https://github.com/andarcabrera/HTTPServer);
+- [TTT Gem](https://github.com/andarcabrera/tttj_gem);
+- [cob_spec](https://github.com/8thlight/cob_spec);
 
 ## Installation
 Clone the repository and run:
-```./setup.sh```    
+./setup.sh   
 
 ## Usage
 
