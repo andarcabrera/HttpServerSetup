@@ -23,4 +23,6 @@ Follow the configuration instructions in the [cob_spec_repo](https://github.com/
 
 - cd in server directory
 - package ```mvn package```
-- run server and pass arguments for port number and cob spec public directory (port 5000 is cob_spec default); e.g. ``` java -jar [/YOUR/PROJECT/PATH/java/HTTPServer/target/HTTPServer-1.0-SNAPSHOT.jar -p 5000 -d /YOUR/COBSPEC/PATH/cob_spec/public```
+- run server and pass arguments for port number and cob spec public directory (port 5000 is cob_spec default):
+
+``` java -jar target/HTTPServer-1.0-SNAPSHOT.jar -p 5000 -d /YOUR/COBSPEC/PATH/cob_spec/public```
