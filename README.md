@@ -9,11 +9,10 @@ It clones 3 projects:
 
 
 ## Installation
-Clone the repository and run.
-
+Clone the repository and run:
 ```./setup.sh```
 
-# Usage
+## Usage
 
 1. Configure cob_spec:
 
