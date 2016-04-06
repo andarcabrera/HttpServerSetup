@@ -4,7 +4,7 @@ This is a helper for [Java HTTP Server](https://github.com/andarcabrera/HTTPServ
 
 It clones 3 projects:
 - [Java HTTP Server](https://github.com/andarcabrera/HTTPServer)
-- [TTT Gem](https://github.com/andarcabrera/HTTPServer)
+- [TTT Gem](https://github.com/andarcabrera/tttj_gem)
 - [cob_spec](https://github.com/8thlight/cob_spec)
 
 
@@ -13,12 +13,14 @@ Clone the repository and run.
 
 ```./setup.sh```
 
+# Usage
 
-## Usage
-- Configure [cob_spec](https://github.com/8thlight/cob_spec) following the configuration instructions in the [repo](https://github.com/8thlight/cob_spec)
+1. Configure cob_spec:
 
-- Run server and pass argument for port number and cob spec public directory (port 5000 is cob_spec default)
+Follow the configuration instructions in the [cob_spec_repo](https://github.com/8thlight/cob_spec)
 
-Example:
+2. Install server:
 
-``` java -jar [/YOUR/PROJECT/PATH/java/HTTPServer/target/HTTPServer-1.0-SNAPSHOT.jar -p 5000 -d /YOUR/COBSPEC/PATH/cob_spec/public```
+- cd in server directory
+- package ```mvn package'''
+- run server and pass arguments for port number and cob spec public directory (port 5000 is cob_spec default); e.g. ``` java -jar [/YOUR/PROJECT/PATH/java/HTTPServer/target/HTTPServer-1.0-SNAPSHOT.jar -p 5000 -d /YOUR/COBSPEC/PATH/cob_spec/public```
