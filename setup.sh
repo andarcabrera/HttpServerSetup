@@ -7,4 +7,4 @@ echo "Downloading cob spec"
 git clone git@github.com:8thlight/cob_spec.git
 
 echo "Downloading HTTP Server"
-git@github.com:andarcabrera/HTTPServer.git
+git clone git@github.com:andarcabrera/HTTPServer.git

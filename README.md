@@ -9,8 +9,9 @@ It clones 3 projects:
 
 
 ## Installation
-Clone the repository and run:
-```./setup.sh```
+- clone repository
+- ```cd HttpServerSetup/```
+- ```./setup.sh```
 
 ## Usage
 
