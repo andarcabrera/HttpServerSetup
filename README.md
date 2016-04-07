@@ -31,4 +31,4 @@ It clones 3 projects:
   - package ```mvn package```
   - start server passing arguments for port number and cob spec public directory (port 5000 is cob_spec default):
 
-``` java -jar target/HTTPServer-1.0-SNAPSHOT.jar -p 5000 -d [/YOUR/COBSPEC/PATH/cob_spec/public]```
+``` java -cp lib/jruby/jruby-complete/1.7.12/jruby-complete-1.7.12.jar:target/HTTPServer-1.0-SNAPSHOT.jar   StartServer -p 5000 -d [/YOUR/PATH/TO/cob_spec/public]```
