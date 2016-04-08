@@ -15,11 +15,10 @@ It clones 3 projects:
 
 ## Usage
 
-1. Configure cob_spec:
+1. Launch cob_spec:
 
-- From HttpServerSetup ```cd cob_spec/```
-- ```mvn package```
-- ```java -jar fitnesse.jar -p 9090```
+  - From HttpServerSetup: cd cob_spec/
+  - java -jar fitnesse.jar -p 9090
 
 OR
 
