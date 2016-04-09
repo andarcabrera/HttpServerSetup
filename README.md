@@ -1,6 +1,6 @@
-# Java HTTP Server
+# Java HTTP Server Setup
 
-This is an installer helper for [Java HTTP Server](https://github.com/andarcabrera/HTTPServer) setup.
+This is an installer helper for [Java HTTP Server](https://github.com/andarcabrera/HTTPServer)
 
 It clones 3 projects:
 - [Java HTTP Server](https://github.com/andarcabrera/HTTPServer);
