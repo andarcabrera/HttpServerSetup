@@ -19,7 +19,6 @@ cd ..
 echo "***************PACKAGING HTTP SERVER***************"
 cd HTTPServer
 mvn package
-echo "***************STARTING SERVER***************"
-echo "$cwd/cob_spec/public"
-java -cp lib/jruby/jruby-complete/1.7.12/jruby-complete-1.7.12.jar:target/HTTPServer-1.0-SNAPSHOT.jar StartServer -p 5000 -d "$cwd/cob_spec/public"
+
+cd ..
 
