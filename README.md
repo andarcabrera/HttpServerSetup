@@ -25,7 +25,7 @@ It clones 3 projects:
 
   - From root directory (HttpServerSetup) run:
     ```
-    ./startCobspecServer
+    ./startCobspecServer.sh
     ```
 
     OR
@@ -38,7 +38,7 @@ It clones 3 projects:
 
   - From root directory (HttpServerSetup) run
     ```
-    ./startHttpServer
+    ./startHttpServer.sh
     ```
 
     OR
